@@ -1,0 +1,7 @@
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\bin\Debug\Five_Philosopher.exe.config
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\bin\Debug\Five_Philosopher.exe
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\bin\Debug\Five_Philosopher.pdb
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\obj\Debug\Five_Philosopher.csproj.CoreCompileInputs.cache
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\obj\Debug\Five_Philosopher.exe
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\obj\Debug\Five_Philosopher.pdb
+C:\Users\iryna.gorova\source\repos\Releasing_resources\Five_Philosopher\obj\Debug\Five_Philosopher.csprojAssemblyReference.cache
