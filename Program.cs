@@ -11,11 +11,14 @@ namespace Five_Philosopher
 		{
 			IList<Philosopher> philosophers = new List<Philosopher>();
 			IList<Fork> forks = new List<Fork>();
-			
+
 			//repressents hybrid synchronization
-			Action<Philosopher[], Fork[], int> process = (ph, f, ind) => HybridSynchronizationConstructionHandler.Process(ph, f, ind);
+			//Action<Philosopher[], Fork[], int> process = (ph, f, ind) => HybridSynchronizationConstructionHandler.Process(ph, f, ind);
 			//repressent Synchronization in the user mode
 			//Action<Philosopher[], Fork[], int> process = (ph, f, ind) => UserSynchronizationModeHandler.Process(ph, f, ind);
+
+			//repressent Synchronization in the kernel mode
+			Action<Philosopher[], Fork[], int> process = (ph, f, index) => MutexSynchronizationConstructionHandler.Process(ph, f, index);
 
 			Initialize(philosophers, forks, 5);
 
